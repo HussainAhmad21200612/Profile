@@ -48,7 +48,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            url:"/Hussain_RESUME.pdf",
+            url:"/hussain%20resume%202024.pdf",
             download:true
         },
         {
