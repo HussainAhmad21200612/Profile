@@ -48,7 +48,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            url:"/hussain%20resume%202024.pdf",
+            url:"/Hussain%20Resume%2025%20(2).pdf",
             download:true
         },
         {
@@ -135,7 +135,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
           </div>
           <h3 className='text-2xl py-5'>Software Developer</h3>
           <p className='max-w-xl font-light text-gray-500 text-xl'> 
-              Hello <span className='animate-pulse text-4xl'>👋</span> I'm Hussain Ahmad, a software developer based in India. I enjoy building things for the web. I'm currently working on 
+              Hello <span className='animate-pulse text-4xl'>👋</span> I'm Hussain Ahmad, a software developer an IIT, JAMMU 2027 graduate based in India. I enjoy building things for the web. I'm currently working on 
               <a className="hover:text-cyan-400" href='https://github.com/hussainahmad21200612/DSA' target='_blank' rel='noopener noreferrer'> DSA</a> and learning.
             </p>
           <div className='flex justify-evenly  py-4 lg:py-8 w-full md:w-1/3 text-3xl'>
@@ -153,7 +153,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             </div>
               <div className='block'>
                   <img src={my_pfp} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-cyan-500 rounded-xl" />
-                  <a href="/hussain%20resume%202024.pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
+                  <a href="/Hussain%20Resume%2025%20(2).pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
               </div>
           <div className='down-arrow mt-10'>
               <FaArrowDown className='hover:text-cyan-500 text-3xl cursor-pointer animate-bounce mt-10 text-gray-500' onClick={
@@ -197,3 +197,4 @@ const Avatar = ({darkMode,setDarkMode}) => {
 }
 
 export default Avatar
+
