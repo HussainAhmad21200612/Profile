@@ -135,7 +135,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
           </div>
           <h3 className='text-2xl py-5'>Software Developer</h3>
           <p className='max-w-xl font-light text-gray-500 text-xl'> 
-              Hello <span className='animate-pulse text-4xl'>👋</span> I'm Hussain Ahmad, an <span className='text-2xl text-white'>IIT JAMMU, MTECH, CSE 2027</span> graduate based in India. I enjoy building things for the web. I'm currently working on 
+              Hello <span className='animate-pulse text-4xl'>👋</span> I'm Hussain Ahmad, an <span className='text-white'>IIT JAMMU</span> student based in India. I enjoy building things for the web. I'm currently working on 
               <a className="hover:text-cyan-400" href='https://github.com/hussainahmad21200612/DSA' target='_blank' rel='noopener noreferrer'> DSA</a> and learning.
             </p>
           <div className='flex justify-evenly  py-4 lg:py-8 w-full md:w-1/3 text-3xl'>
@@ -197,6 +197,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
 }
 
 export default Avatar
+
 
 
 
