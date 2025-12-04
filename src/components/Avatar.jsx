@@ -48,7 +48,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            url:"/Hussain%20Resume%2025%20(2).pdf",
+            url:"/IIT_Jammu.pdf",
             download:true
         },
         {
@@ -153,7 +153,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             </div>
               <div className='block'>
                   <img src={my_pfp} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-cyan-500 rounded-xl" />
-                  <a href="/Hussain%20Resume%2025%20(2).pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
+                  <a href="/IIT_Jammu.pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
               </div>
           <div className='down-arrow mt-10'>
               <FaArrowDown className='hover:text-cyan-500 text-3xl cursor-pointer animate-bounce mt-10 text-gray-500' onClick={
@@ -197,6 +197,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
 }
 
 export default Avatar
+
 
 
 
