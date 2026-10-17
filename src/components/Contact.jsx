@@ -21,7 +21,7 @@ const Contact = () => {
         },
         {
             id: 4,
-            url: "https://www.instagram.com/yuphussainishere/",
+            url: "https://www.instagram.com/yupitshussain/",
             icon: <FaInstagram />
         },
 
