@@ -48,7 +48,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            url:"/Hussain_IITJ_Resume_2026.pdf",
+            url:"/Hussain_IITJ_Resume_2026_Thesis_WGS.pdf",
             download:true
         },
         {
@@ -88,7 +88,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         {
             id: 4,
             title:'instagram',
-            url: "https://www.instagram.com/yuphussainishere/",
+            url: "https://www.instagram.com/yupitshussain/",
             icon: <FaInstagram />
         },
 
@@ -136,7 +136,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
           <h3 className='text-2xl py-5'>Software Developer</h3>
           <p className='max-w-xl font-light text-gray-500 text-xl'> 
               Hello <span className='animate-pulse text-4xl'>👋</span>I'm <span className='text-white'>Hussain Ahmad</span>, an <span className='text-white'>IIT JAMMU</span> student based in India. I enjoy building things for the web. I'm currently working on 
-              <a className="hover:text-cyan-400" href='https://github.com/hussainahmad21200612/DSA' target='_blank' rel='noopener noreferrer'> DSA</a> and learning.
+              <a className="hover:text-cyan-400" href='https://github.com/hussainahmad21200612/DSA' target='_blank' rel='noopener noreferrer'> Quantum Computing </a> and learning.
             </p>
           <div className='flex justify-evenly  py-4 lg:py-8 w-full md:w-1/3 text-3xl'>
               {/* <FaGithub className='text-2xl cursor-pointer' />  
@@ -153,7 +153,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             </div>
               <div className='block'>
                   <img src={my_pfp} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-cyan-500 rounded-xl" />
-                  <a href="/Hussain_IITJ_Resume_2026.pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
+                  <a href="/Hussain_IITJ_Resume_2026_Thesis_WGS.pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
               </div>
           <div className='down-arrow mt-10'>
               <FaArrowDown className='hover:text-cyan-500 text-3xl cursor-pointer animate-bounce mt-10 text-gray-500' onClick={
